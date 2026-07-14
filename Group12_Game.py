@@ -252,7 +252,7 @@ def main():
             Enemy.apper()
             Enemy.action()
         elif scene == "finish_battle":
-            Bonus.reward(player)
+            Bonus.reward(Player)
         elif scene == "select_action":
             Event.select()
         elif scene == "treasure_chest":
